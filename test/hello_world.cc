@@ -107,7 +107,7 @@ int main(int, char *[]) {
     // this, it should work
     // fine.
     //
-    ibm_df.read("data/SHORT_IBM.csv", io_format::csv2);
+    ibm_df.read("../data/SHORT_IBM.csv", io_format::csv2);
 
     // To access a column, you must know its name (or index) and its type
     //
